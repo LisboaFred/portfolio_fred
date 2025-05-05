@@ -3,9 +3,9 @@ export type Language = 'en' | 'pt';
 
 export const translations = {
   en: {
-    role: "Data Analyst & Software Developer",
+    role: "Software Developer & Data Analyst",
     namePessoal: "Hi, I'm Frederico Lisboa",
-    description: "With 4 years of data analysis and 1 year of software development experience, I help organizations make data-driven decisions and build efficient solutions.",
+    description: "with 4 years of experience combining system development, data integration, and interactive visualization. I build scalable applications, integrate APIs (including AI models), design robust databases, and develop interfaces and dashboards that help organizations turn data into strategic decisions and efficient solutions..",
     viewExperience: "View Experience",
     contact: "Contact Me",
     seeSkills: "See Skills",
@@ -26,9 +26,9 @@ export const translations = {
     contactMe: "Contact Me",
   },
   pt: {
-    role: "Analista de Dados & Desenvolvedor de Software",
+    role: "Desenvolvedor de Software & Analista de Dados",
     namePessoal: "Olá, sou Frederico Lisboa",
-    description: "Com 4 anos de experiência em análise de dados e 1 ano de experiência em desenvolvimento de software, ajudo organizações a tomar decisões baseadas em dados e a criar soluções eficientes.",
+    description: "Com 4 anos de experiência unindo desenvolvimento de sistemas, integração de dados e visualização interativa. Atuo na criação de aplicações escaláveis, integrações com APIs (inclusive com modelos de IA), estruturação de bancos de dados e desenvolvimento de interfaces e dashboards que ajudam organizações a transformar dados em decisões estratégicas e soluções eficientes.",
     viewExperience: "Ver Experiência",
     contact: "Fale Comigo",
     seeSkills: "Ver Habilidades",
