@@ -23,7 +23,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <span className="text-sm text-purple-600 font-medium">4 {t('years')}</span>
+              <span className="text-sm text-purple-600 font-medium">1 {t('year')}</span>
               <h3 className="text-xl font-semibold text-gray-900">{t('dataAnalyst')}</h3>
               <p className="text-gray-600">{t('dataAnalystDescription')}</p>
             </div>

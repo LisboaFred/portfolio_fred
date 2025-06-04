@@ -5,7 +5,7 @@ export const translations = {
   en: {
     role: "Software Developer & Data Analyst",
     namePessoal: "Hi, I'm Frederico Lisboa",
-    description: "with 4 years of experience combining system development, data integration, and interactive visualization. I build scalable applications, integrate APIs (including AI models), design robust databases, and develop interfaces and dashboards that help organizations turn data into strategic decisions and efficient solutions..",
+    description: "with 2 years of experience combining system development, data integration, and interactive visualization. I build scalable applications, integrate APIs (including AI models), design robust databases, and develop interfaces and dashboards that help organizations turn data into strategic decisions and efficient solutions..",
     viewExperience: "View Experience",
     contact: "Contact Me",
     seeSkills: "See Skills",
