@@ -35,13 +35,13 @@ const Hero = () => {
           </button>
           <button
             onClick={() => scrollToNextSection('expertise')}
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-purple-700 transform hover:scale-105 transition-all duration-300"
           >
             {t('seeSkills')}
           </button>
           <button
             onClick={() => scrollToNextSection('contact')}
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-purple-700 transform hover:scale-105 transition-all duration-300"
           >
             {t('contact')}
           </button>
