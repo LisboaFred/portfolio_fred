@@ -28,7 +28,7 @@ export const translations = {
   pt: {
     role: "Desenvolvedor de Software & Analista de Dados",
     namePessoal: "Olá, sou Frederico Lisboa",
-    description: "Com 4 anos de experiência unindo desenvolvimento de sistemas, integração de dados e visualização interativa. Atuo na criação de aplicações escaláveis, integrações com APIs (inclusive com modelos de IA), estruturação de bancos de dados e desenvolvimento de interfaces e dashboards que ajudam organizações a transformar dados em decisões estratégicas e soluções eficientes.",
+    description: "Com 2 anos de experiência unindo desenvolvimento de sistemas, integração de dados e visualização interativa. Atuo na criação de aplicações escaláveis, integrações com APIs (inclusive com modelos de IA), estruturação de bancos de dados e desenvolvimento de interfaces e dashboards que ajudam organizações a transformar dados em decisões estratégicas e soluções eficientes.",
     viewExperience: "Ver Experiência",
     contact: "Fale Comigo",
     seeSkills: "Ver Habilidades",
