@@ -1,4 +1,3 @@
-
 export type Language = 'en' | 'pt';
 
 export const translations = {
@@ -9,6 +8,7 @@ export const translations = {
     viewExperience: "Ver Experiência",
     contact: "Fale Comigo",
     seeSkills: "Ver Habilidades",
+    project: "Projetos",
     careerJourney: "Trajetória Profissional",
     professionalExperience: "Experiência Profissional",
     years: "Anos",
@@ -24,6 +24,21 @@ export const translations = {
     toolsTech: "Ferramentas & Tecnologias",
     getInTouch: "Entre em Contato",
     contactMe: "Fale Comigo",
+    // Projects Section
+    myProjects: "Meus Projetos",
+    projectsDescription: "Uma coleção dos meus projetos mais recentes, demonstrando habilidades em desenvolvimento, arquitetura de software e diferentes tecnologias.",
+    viewAllProjects: "Ver todos os projetos no GitHub",
+    viewOnGitHub: "Ver no GitHub",
+    code: "Código",
+    // Project Titles and Descriptions
+    appointmentScheduler: "Agendador de Compromissos",
+    appointmentSchedulerDesc: "Uma aplicação robusta em TypeScript para agendamento de compromissos com validações rigorosas de data e prevenção de conflitos. Implementa testes com Vitest e utiliza a biblioteca date-fns para manipulação de datas.",
+    taskManagerBackend: "Backend Gerenciador de Tarefas",
+    taskManagerBackendDesc: "Backend completo para gerenciamento de tarefas desenvolvido em Node.js com TypeScript. Utiliza Express como framework HTTP e Prisma ORM para acesso eficiente ao banco de dados.",
+    microservicesArchitecture: "Arquitetura de Microserviços",
+    microservicesArchitectureDesc: "Arquitetura completa de microserviços em Node.js + TypeScript, com três serviços independentes: API de produtos, clientes e pedidos. Demonstra padrões modernos de desenvolvimento distribuído.",
+    usersApiTypeScript: "API de Usuários TypeScript",
+    usersApiTypeScriptDesc: "API REST completa para gerenciamento de usuários com Node.js, Express e TypeScript. Utiliza MongoDB como banco de dados e implementa CRUD completo com validações e middlewares.",
   },
   en: {
     role: "Software Developer & Data Analyst",
@@ -32,6 +47,7 @@ export const translations = {
     viewExperience: "View Experience",
     contact: "Contact Me",
     seeSkills: "See Skills",
+    project: "Projects",
     careerJourney: "Career Journey",
     professionalExperience: "Professional Experience",
     years: "Years",
@@ -43,9 +59,24 @@ export const translations = {
     skillsExpertise: "Skills & Expertise",
     technicalExpertise: "Technical Expertise",
     dataAnalysis: "Data Analysis",
-    development: "Development",
+    development: "Development", 
     toolsTech: "Tools & Technologies",
     getInTouch: "Get in Touch",
     contactMe: "Contact Me",
+    // Projects Section
+    myProjects: "My Projects",
+    projectsDescription: "A collection of my most recent projects, showcasing skills in development, software architecture, and different technologies.",
+    viewAllProjects: "View all projects on GitHub",
+    viewOnGitHub: "View on GitHub",
+    code: "Code",
+    // Project Titles and Descriptions
+    appointmentScheduler: "Appointment Scheduler",
+    appointmentSchedulerDesc: "A robust TypeScript application for appointment scheduling with strict date validations and conflict prevention. Implements testing with Vitest and uses the date-fns library for date manipulation.",
+    taskManagerBackend: "Task Manager Backend",
+    taskManagerBackendDesc: "Complete backend for task management developed in Node.js with TypeScript. Uses Express as HTTP framework and Prisma ORM for efficient database access.",
+    microservicesArchitecture: "Microservices Architecture",
+    microservicesArchitectureDesc: "Complete microservices architecture in Node.js + TypeScript, with three independent services: products, customers, and orders API. Demonstrates modern distributed development patterns.",
+    usersApiTypeScript: "Users API TypeScript",
+    usersApiTypeScriptDesc: "Complete REST API for user management with Node.js, Express, and TypeScript. Uses MongoDB as database and implements full CRUD with validations and middlewares.",
   },
 };

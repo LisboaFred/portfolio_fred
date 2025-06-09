@@ -40,6 +40,12 @@ const Hero = () => {
             {t('seeSkills')}
           </button>
           <button
+            onClick={() => scrollToNextSection('project')}
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-purple-700 transform hover:scale-105 transition-all duration-300"
+          >
+            {t('project')}
+          </button>
+          <button
             onClick={() => scrollToNextSection('contact')}
             className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-purple-700 transform hover:scale-105 transition-all duration-300"
           >
