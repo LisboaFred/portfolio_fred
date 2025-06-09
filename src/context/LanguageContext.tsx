@@ -5,15 +5,15 @@ import { Language, translations } from '../utils/translations';
 type LanguageContextType = {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: keyof typeof translations.en) => string;
+  t: (key: keyof typeof translations.pt) => string;
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('pt');
 
-  const t = (key: keyof typeof translations.en): string => {
+  const t = (key: keyof typeof translations.pt): string => {
     return translations[language][key];
   };
 
