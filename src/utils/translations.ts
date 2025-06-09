@@ -2,7 +2,7 @@ export type Language = 'en' | 'pt';
 
 export const translations = {
   pt: {
-    role: "Desenvolvedor de Software & Analista de Dados",
+    role: "Desenvolvedor Backend",
     namePessoal: "Olá, sou Frederico Lisboa",
     description: "Com 2 anos de experiência em desenvolvimento backend, atuo na criação de aplicações escaláveis, integração com APIs (incluindo modelos de IA), estruturação de bancos de dados relacionais e não-relacionais, além da construção de sistemas robustos e seguros que atendem às necessidades de negócio com eficiência e performance.",
     viewExperience: "Ver Experiência",
@@ -41,7 +41,7 @@ export const translations = {
     usersApiTypeScriptDesc: "API REST completa para gerenciamento de usuários com Node.js, Express e TypeScript. Utiliza MongoDB como banco de dados e implementa CRUD completo com validações e middlewares.",
   },
   en: {
-    role: "Software Developer & Data Analyst",
+    role: "Backend Developer",
     namePessoal: "Hi, I'm Frederico Lisboa",
     description: "With 2 years of experience in backend development, here in creating scalable applications, integrating with APIs (including AI models), structuring relational and non-relational databases, in addition to building robust and secure systems that meet business needs with efficiency and performance.",
     viewExperience: "View Experience",
