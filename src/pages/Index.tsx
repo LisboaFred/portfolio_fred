@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
 import ContactLisboa from "@/components/Contact";
+import ProjectCard from "@/components/ui/ProjectsCards";
+import ProjectsSection from "@/components/ProjectsSection";
 
 const Index = () => {
   return (
@@ -10,6 +12,7 @@ const Index = () => {
       <Hero />
       <Experience />
       <TechnicalExpertise />
+      <ProjectsSection  />
       <ContactLisboa />
     </div>
   );
