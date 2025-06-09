@@ -16,6 +16,21 @@ const Experience = () => {
         </div>
         
         <div className="space-y-12">
+
+          <div className="relative pl-8 border-l-2 border-purple-100">
+            <div className="absolute -left-3 top-0">
+              <div className="bg-white p-1.5 rounded-full border-2 border-purple-100">
+                <Briefcase className="w-4 h-4 text-purple-500" />
+              </div>
+            </div>
+            <div className="space-y-2">
+              <span className="text-sm text-purple-600 font-medium">2 {t('years')}</span>
+              <h3 className="text-xl font-semibold text-gray-900">{t('softwareDev')}</h3>
+              <p className="text-gray-600">{t('softwareDevDescription')}</p>
+            </div>
+          </div>
+
+
           <div className="relative pl-8 border-l-2 border-purple-100">
             <div className="absolute -left-3 top-0">
               <div className="bg-white p-1.5 rounded-full border-2 border-purple-100">
@@ -29,18 +44,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="relative pl-8 border-l-2 border-purple-100">
-            <div className="absolute -left-3 top-0">
-              <div className="bg-white p-1.5 rounded-full border-2 border-purple-100">
-                <Briefcase className="w-4 h-4 text-purple-500" />
-              </div>
-            </div>
-            <div className="space-y-2">
-              <span className="text-sm text-purple-600 font-medium">1 {t('year')}</span>
-              <h3 className="text-xl font-semibold text-gray-900">{t('softwareDev')}</h3>
-              <p className="text-gray-600">{t('softwareDevDescription')}</p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
