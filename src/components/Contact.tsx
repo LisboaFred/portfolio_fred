@@ -1,4 +1,4 @@
-import { Mail, Phone, Github } from "lucide-react";
+import { Mail, Phone, Github, Linkedin  } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 const ContactLisboa= () => {
@@ -47,6 +47,17 @@ const ContactLisboa= () => {
               <h3 className="font-medium text-gray-900">GitHub</h3>
               <a href="https://github.com/LisboaFred" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-700">
                 github.com/LisboaFred
+              </a>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 p-4 bg-blue-50 rounded-lg transition-transform hover:scale-105 w-full max-w-xl">
+            <div className="p-3 bg-blue-100 rounded-full">
+              <Linkedin className="w-6 h-6 text-blue-600" />
+            </div>
+            <div>
+              <h3 className="font-medium text-gray-900">LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/frederico-lisboa-703877262/"target="_blank"rel="noopener noreferrer"className="text-blue-600 hover:text-blue-700">
+              linkedin.com/in/frederico-lisboa-703877262
               </a>
             </div>
           </div>
