@@ -1,6 +1,6 @@
 // src/components/sections/ProjectsSection.tsx
 import React from 'react';
-import { ExternalLink, Github, Calendar, Database, Users, Layers } from 'lucide-react';
+import { ExternalLink, Github, Calendar, Database, Users, Layers, DollarSign } from 'lucide-react';
 import ProjectCard from './ui/ProjectsCards';
 import { useLanguage } from "../context/LanguageContext";
 
@@ -8,6 +8,14 @@ const ProjectsSection: React.FC = () => {
   const { t } = useLanguage();
 
   const projects = [
+    {
+      title: t('dashfinancelisboa'),
+      description: t('dashfinancelisboaDesc'),
+      tech: ["TypeScript", "API REST", "JWT", "Node.js", "Vite", "ESLint", "Axios", "Tailwind CSS"],
+      githubUrl: "https://github.com/LisboaFred/finance-lisboaFamily",
+      icon: DollarSign,
+      techColor: "bg-blue-500"
+    },
     {
       title: t('appointmentScheduler'),
       description: t('appointmentSchedulerDesc'),

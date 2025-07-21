@@ -31,6 +31,8 @@ export const translations = {
     viewOnGitHub: "Ver no GitHub",
     code: "Código",
     // Project Titles and Descriptions
+    dashfinancelisboa:"Controle de Finanças - Lisboa",
+    dashfinancelisboaDesc:"Uma aplicação full-stack com login e dashboard para controle de finanças pessoais, com backend em TypeScript (Node.js, Express) e frontend em React + TypeScript.",
     appointmentScheduler: "Agendador de Compromissos",
     appointmentSchedulerDesc: "Uma aplicação robusta em TypeScript para agendamento de compromissos com validações rigorosas de data e prevenção de conflitos. Implementa testes com Vitest e utiliza a biblioteca date-fns para manipulação de datas.",
     taskManagerBackend: "Backend Gerenciador de Tarefas",
@@ -70,6 +72,8 @@ export const translations = {
     viewOnGitHub: "View on GitHub",
     code: "Code",
     // Project Titles and Descriptions
+    dashfinancelisboa: "Finance Control - Lisboa",
+    dashfinancelisboaDesc:"A full-stack application with login and dashboard for personal finance control, with a backend in TypeScript (Node.js, Express) and a frontend in React + TypeScript.",
     appointmentScheduler: "Appointment Scheduler",
     appointmentSchedulerDesc: "A robust TypeScript application for appointment scheduling with strict date validations and conflict prevention. Implements testing with Vitest and uses the date-fns library for date manipulation.",
     taskManagerBackend: "Task Manager Backend",
