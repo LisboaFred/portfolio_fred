@@ -30,6 +30,7 @@ export const translations = {
     viewAllProjects: "Ver todos os projetos no GitHub",
     viewOnGitHub: "Ver no GitHub",
     code: "Código",
+    site: "Produção",
     // Project Titles and Descriptions
     dashfinancelisboa:"Controle de Finanças - Lisboa",
     dashfinancelisboaDesc:"Uma aplicação full-stack com login e dashboard para controle de finanças pessoais, com backend em TypeScript (Node.js, Express) e frontend em React + TypeScript.",

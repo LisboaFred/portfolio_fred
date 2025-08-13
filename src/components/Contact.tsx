@@ -57,7 +57,7 @@ const ContactLisboa= () => {
             <div>
               <h3 className="font-medium text-gray-900">LinkedIn</h3>
               <a href="https://www.linkedin.com/in/frederico-lisboa-703877262/"target="_blank"rel="noopener noreferrer"className="text-blue-600 hover:text-blue-700">
-              linkedin.com/in/frederico-lisboa-703877262
+              linkedin.com/in/fredericolisboa/
               </a>
             </div>
           </div>

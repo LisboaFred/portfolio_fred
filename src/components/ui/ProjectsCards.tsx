@@ -8,6 +8,7 @@ interface ProjectCardProps {
   description: string;
   tech: string[];
   githubUrl: string;
+  linkProject: string;
   icon: LucideIcon;
   techColor: string;
 }
@@ -17,6 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   description, 
   tech, 
   githubUrl, 
+  linkProject,
   icon: Icon, 
   techColor 
 }) => {
@@ -70,6 +72,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <Github className="w-3 h-3" />
             <span>{t('code')}</span>
           </a>
+          {linkProject && (
+            <a
+              href={linkProject}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-1.5 px-3 py-1.5 bg-blue-600 dark:bg-blue-500 text-white rounded-lg hover:bg-blue-500 dark:hover:bg-blue-400 transition-colors duration-200 text-xs font-medium"
+            >
+              <ExternalLink className="w-3 h-3" />
+              <span>{t('site')}</span>
+            </a>
+          )}
         </div>
       </div>
     </div>

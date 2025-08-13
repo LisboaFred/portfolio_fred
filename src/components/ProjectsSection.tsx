@@ -11,8 +11,9 @@ const ProjectsSection: React.FC = () => {
     {
       title: t('dashfinancelisboa'),
       description: t('dashfinancelisboaDesc'),
-      tech: ["TypeScript", "API REST", "JWT", "Node.js", "Vite", "ESLint", "Axios", "Tailwind CSS"],
+      tech: ["TypeScript", "Node.js", "React", "API REST", "JWT", "Vite", "ESLint", "Axios", "Tailwind CSS"],
       githubUrl: "https://github.com/LisboaFred/finance-lisboaFamily",
+      linkProject: "https://finance-lisboa-family.vercel.app/login",
       icon: DollarSign,
       techColor: "bg-blue-500"
     },
@@ -71,6 +72,7 @@ const ProjectsSection: React.FC = () => {
               description={project.description}
               tech={project.tech}
               githubUrl={project.githubUrl}
+              linkProject={project.linkProject}
               icon={project.icon}
               techColor={project.techColor}
             />
