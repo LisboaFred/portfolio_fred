@@ -13,28 +13,28 @@ const TechnicalExpertise = () => {
       icon: Code,
       iconBg: 'bg-purple-500/10',
       iconColor: 'text-purple-500',
-      skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'HTML5/CSS3', 'Vite'],
+      skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML/CSS', 'Vite'],
     },
     {
       title: t('backend'),
       icon: Server,
       iconBg: 'bg-cyan-500/10',
       iconColor: 'text-cyan-500',
-      skills: ['Node.js', 'Express', 'REST APIs', 'PostgreSQL', 'MongoDB', 'Prisma ORM'],
+      skills: ['Node.js', 'Express', 'APIs REST', 'Prisma ORM', 'PostgreSQL', 'MongoDB', 'Firebase'],
     },
     {
       title: t('mobile'),
       icon: Smartphone,
       iconBg: 'bg-pink-500/10',
       iconColor: 'text-pink-500',
-      skills: ['React Native', 'Expo', 'Firebase', 'Push Notifications', 'App Store/Play Store'],
+      skills: ['React Native', 'Expo', 'Push Notifications', 'Publicação (Play Store / App Store)'],
     },
     {
       title: t('devopsTools'),
       icon: Cloud,
       iconBg: 'bg-green-500/10',
       iconColor: 'text-green-500',
-      skills: ['Git/GitHub', 'Docker', 'GCP', 'AWS', 'Jest/Vitest', 'CI/CD'],
+      skills: ['Git/GitHub', 'Docker', 'AWS', 'GCP', 'CI/CD', 'Jest/Vitest'],
     },
   ];
 
