@@ -8,14 +8,14 @@ const Experience = () => {
 
   const experiences = [
     {
-      period: `2 ${t('years')}`,
+      period: t('fullstackYears'),
       title: t('softwareDev'),
       description: t('softwareDevDescription'),
       icon: Rocket,
       color: 'from-purple-500 to-cyan-500',
     },
     {
-      period: `1 ${t('year')}`,
+      period: t('analystYears'),
       title: t('dataAnalyst'),
       description: t('dataAnalystDescription'),
       icon: Briefcase,

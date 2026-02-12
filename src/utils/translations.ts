@@ -25,10 +25,12 @@ export const translations = {
     professionalExperience: "Experiência Profissional",
     years: "Anos",
     year: "Ano",
+    fullstackYears: "3 Anos",
+    analystYears: "1 Ano",
     dataAnalyst: "Analista de Dados",
     dataAnalystDescription: "Utilizando ferramentas avançadas de análise e visualização para transformar dados complexos em insights acionáveis. Especialista em SQL, MySQL e Power BI para tomada de decisões baseada em dados.",
     softwareDev: "Desenvolvedor Fullstack",
-    softwareDevDescription: "Desenvolvo soluções completas web e mobile com React, React Native e Node.js. Crio APIs REST bem estruturadas, interfaces modernas e apps mobile nativos. Experiência com bancos de dados relacionais (PostgreSQL) e não relacionais (MongoDB, Firebase), além de deploy em cloud (GCP, AWS). Aplico testes automatizados com Jest e Vitest para garantir qualidade.",
+    softwareDevDescription: "Desenvolvo soluções completas web e mobile com React, React Native e Node.js. Crio APIs bem estruturadas, interfaces modernas e apps mobile nativos. Experiência com bancos de dados relacionais (PostgreSQL) e não relacionais (MongoDB, Firebase), além de deploy em cloud (GCP, AWS). Aplico testes automatizados com Jest e Vitest para garantir qualidade.",
 
     // Skills
     skillsExpertise: "Habilidades & Especialidades",
@@ -96,6 +98,8 @@ export const translations = {
     professionalExperience: "Professional Experience",
     years: "Years",
     year: "Year",
+    fullstackYears: "2 Years",
+    analystYears: "1 Year",
     dataAnalyst: "Data Analyst",
     dataAnalystDescription: "Leveraging advanced analytics and visualization tools to transform complex data into actionable insights. Expertise in SQL, MySQL, and Power BI for data-driven decision making.",
     softwareDev: "Fullstack Developer",
