@@ -2,86 +2,145 @@ export type Language = 'en' | 'pt';
 
 export const translations = {
   pt: {
-    role: "Desenvolvedor Backend",
-    namePessoal: "Olá, sou Frederico Lisboa",
-    description: "Com 2 anos de experiência em desenvolvimento backend, atuo na criação de aplicações escaláveis, integração com APIs (incluindo modelos de IA), estruturação de bancos de dados relacionais e não-relacionais, além da construção de sistemas robustos e seguros que atendem às necessidades de negócio com eficiência e performance.",
+    // Navbar
+    navHome: "Início",
+    navExperience: "Experiência",
+    navSkills: "Habilidades",
+    navProjects: "Projetos",
+    navContact: "Contato",
+
+    // Hero
+    role: "Desenvolvedor Fullstack",
+    greeting: "Olá, eu sou",
+    namePessoal: "Fred Lisboa",
+    description: "Desenvolvedor Fullstack com experiência em React, React Native, Node.js e arquitetura de soluções escaláveis. Construo aplicações web e mobile de ponta a ponta — do backend robusto ao frontend elegante.",
     viewExperience: "Ver Experiência",
     contact: "Fale Comigo",
     seeSkills: "Ver Habilidades",
     project: "Projetos",
+    downloadCV: "Download CV",
+
+    // Experience
     careerJourney: "Trajetória Profissional",
     professionalExperience: "Experiência Profissional",
     years: "Anos",
     year: "Ano",
     dataAnalyst: "Analista de Dados",
     dataAnalystDescription: "Utilizando ferramentas avançadas de análise e visualização para transformar dados complexos em insights acionáveis. Especialista em SQL, MySQL e Power BI para tomada de decisões baseada em dados.",
-    softwareDev: "Desenvolvedor de Software",
-    softwareDevDescription: "Desenvolvo soluções eficientes e escaláveis com JavaScript e Node.js, criando APIs REST bem estruturadas e voltadas para resolver problemas do mundo real. Tenho experiência com bancos de dados relacionais (PostgreSQL) e não relacionais (MongoDB), além de aplicar testes automatizados com Jest e Vitest para garantir qualidade e confiança no código. Busco sempre construir aplicações robustas, limpas e de fácil manutenção.",
+    softwareDev: "Desenvolvedor Fullstack",
+    softwareDevDescription: "Desenvolvo soluções completas web e mobile com React, React Native e Node.js. Crio APIs REST bem estruturadas, interfaces modernas e apps mobile nativos. Experiência com bancos de dados relacionais (PostgreSQL) e não relacionais (MongoDB, Firebase), além de deploy em cloud (GCP, AWS). Aplico testes automatizados com Jest e Vitest para garantir qualidade.",
+
+    // Skills
     skillsExpertise: "Habilidades & Especialidades",
     technicalExpertise: "Expertise Técnica",
-    dataAnalysis: "Análise de Dados",
-    development: "Desenvolvimento",
-    toolsTech: "Ferramentas & Tecnologias",
-    getInTouch: "Entre em Contato",
-    contactMe: "Fale Comigo",
+    skillsSubtitle: "Tecnologias e ferramentas que uso para construir soluções completas",
+    frontend: "Frontend",
+    backend: "Backend",
+    mobile: "Mobile",
+    devopsTools: "DevOps & Tools",
+
     // Projects Section
     myProjects: "Meus Projetos",
-    projectsDescription: "Uma coleção dos meus projetos mais recentes, demonstrando habilidades em desenvolvimento, arquitetura de software e diferentes tecnologias.",
+    projectsDescription: "Uma coleção dos meus projetos mais recentes, demonstrando habilidades fullstack em desenvolvimento web, mobile e arquitetura de software.",
+    featuredProject: "Projeto Destaque",
     viewAllProjects: "Ver todos os projetos no GitHub",
     viewOnGitHub: "Ver no GitHub",
     code: "Código",
     site: "Produção",
+    liveDemo: "Ver ao Vivo",
+
     // Project Titles and Descriptions
-    dashfinancelisboa:"Controle de Finanças - Lisboa",
-    dashfinancelisboaDesc:"Uma aplicação full-stack com login e dashboard para controle de finanças pessoais, com backend em TypeScript (Node.js, Express) e frontend em React + TypeScript.",
+    vaultTitle: "Vault - Gestão Financeira",
+    vaultDesc: "Aplicação fullstack completa de gestão financeira pessoal com dashboard interativo, gráficos, controle de categorias, regras automáticas e relatórios. Backend em Node.js + Express, frontend em React + TypeScript, deploy no Google Cloud Run.",
+    dashfinancelisboa: "Finance Control - Lisboa",
+    dashfinancelisboaDesc: "Aplicação full-stack com login e dashboard para controle de finanças pessoais, com backend em TypeScript (Node.js, Express) e frontend em React + TypeScript.",
     appointmentScheduler: "Agendador de Compromissos",
-    appointmentSchedulerDesc: "Uma aplicação robusta em TypeScript para agendamento de compromissos com validações rigorosas de data e prevenção de conflitos. Implementa testes com Vitest e utiliza a biblioteca date-fns para manipulação de datas.",
+    appointmentSchedulerDesc: "Aplicação robusta em TypeScript para agendamento de compromissos com validações rigorosas de data e prevenção de conflitos.",
     taskManagerBackend: "Backend Gerenciador de Tarefas",
-    taskManagerBackendDesc: "Backend completo para gerenciamento de tarefas desenvolvido em Node.js com TypeScript. Utiliza Express como framework HTTP e Prisma ORM para acesso eficiente ao banco de dados.",
+    taskManagerBackendDesc: "Backend completo para gerenciamento de tarefas em Node.js com TypeScript, Express e Prisma ORM com PostgreSQL.",
     microservicesArchitecture: "Arquitetura de Microserviços",
-    microservicesArchitectureDesc: "Arquitetura completa de microserviços em Node.js + TypeScript, com três serviços independentes: API de produtos, clientes e pedidos. Demonstra padrões modernos de desenvolvimento distribuído.",
+    microservicesArchitectureDesc: "Arquitetura completa de microserviços em Node.js + TypeScript com três serviços independentes demonstrando padrões modernos de desenvolvimento distribuído.",
     usersApiTypeScript: "API de Usuários TypeScript",
-    usersApiTypeScriptDesc: "API REST completa para gerenciamento de usuários com Node.js, Express e TypeScript. Utiliza MongoDB como banco de dados e implementa CRUD completo com validações e middlewares.",
+    usersApiTypeScriptDesc: "API REST completa para gerenciamento de usuários com Node.js, Express, TypeScript, MongoDB e autenticação JWT.",
+
+    // Contact
+    getInTouch: "Entre em Contato",
+    contactMe: "Vamos Conversar",
+    contactSubtitle: "Estou disponível para novos projetos e oportunidades. Vamos construir algo incrível juntos!",
+
+    // Footer
+    madeWith: "Feito com",
+    by: "por",
   },
   en: {
-    role: "Backend Developer",
-    namePessoal: "Hi, I'm Frederico Lisboa",
-    description: "With 2 years of experience in backend development, here in creating scalable applications, integrating with APIs (including AI models), structuring relational and non-relational databases, in addition to building robust and secure systems that meet business needs with efficiency and performance.",
+    // Navbar
+    navHome: "Home",
+    navExperience: "Experience",
+    navSkills: "Skills",
+    navProjects: "Projects",
+    navContact: "Contact",
+
+    // Hero
+    role: "Fullstack Developer",
+    greeting: "Hello, I'm",
+    namePessoal: "Fred Lisboa",
+    description: "Fullstack Developer experienced in React, React Native, Node.js and scalable solution architecture. I build end-to-end web and mobile applications — from robust backends to elegant frontends.",
     viewExperience: "View Experience",
     contact: "Contact Me",
     seeSkills: "See Skills",
     project: "Projects",
+    downloadCV: "Download CV",
+
+    // Experience
     careerJourney: "Career Journey",
     professionalExperience: "Professional Experience",
     years: "Years",
     year: "Year",
     dataAnalyst: "Data Analyst",
     dataAnalystDescription: "Leveraging advanced analytics and visualization tools to transform complex data into actionable insights. Expertise in SQL, MySQL, and Power BI for data-driven decision making.",
-    softwareDev: "Software Developer",
-    softwareDevDescription: "I develop efficient and scalable solutions with JavaScript and Node.js, creating well-structured REST APIs focused on solving real-world problems. I have experience with relational (PostgreSQL) and non-relational (MongoDB) databases, in addition to applying automated tests with Jest and Vitest to ensure quality and reliability in the code. I always seek to build robust, clean and easy-to-maintain applications.",
+    softwareDev: "Fullstack Developer",
+    softwareDevDescription: "I build complete web and mobile solutions with React, React Native and Node.js. I create well-structured REST APIs, modern interfaces and native mobile apps. Experience with relational (PostgreSQL) and non-relational (MongoDB, Firebase) databases, plus cloud deployment (GCP, AWS). I apply automated testing with Jest and Vitest to ensure quality.",
+
+    // Skills
     skillsExpertise: "Skills & Expertise",
     technicalExpertise: "Technical Expertise",
-    dataAnalysis: "Data Analysis",
-    development: "Development", 
-    toolsTech: "Tools & Technologies",
-    getInTouch: "Get in Touch",
-    contactMe: "Contact Me",
+    skillsSubtitle: "Technologies and tools I use to build complete solutions",
+    frontend: "Frontend",
+    backend: "Backend",
+    mobile: "Mobile",
+    devopsTools: "DevOps & Tools",
+
     // Projects Section
     myProjects: "My Projects",
-    projectsDescription: "A collection of my most recent projects, showcasing skills in development, software architecture, and different technologies.",
+    projectsDescription: "A collection of my most recent projects, showcasing fullstack skills in web development, mobile apps, and software architecture.",
+    featuredProject: "Featured Project",
     viewAllProjects: "View all projects on GitHub",
     viewOnGitHub: "View on GitHub",
     code: "Code",
+    site: "Production",
+    liveDemo: "Live Demo",
+
     // Project Titles and Descriptions
+    vaultTitle: "Vault - Financial Management",
+    vaultDesc: "Complete fullstack personal finance management app with interactive dashboard, charts, category management, automatic rules and reports. Node.js + Express backend, React + TypeScript frontend, deployed on Google Cloud Run.",
     dashfinancelisboa: "Finance Control - Lisboa",
-    dashfinancelisboaDesc:"A full-stack application with login and dashboard for personal finance control, with a backend in TypeScript (Node.js, Express) and a frontend in React + TypeScript.",
+    dashfinancelisboaDesc: "A full-stack application with login and dashboard for personal finance control, with a backend in TypeScript (Node.js, Express) and a frontend in React + TypeScript.",
     appointmentScheduler: "Appointment Scheduler",
-    appointmentSchedulerDesc: "A robust TypeScript application for appointment scheduling with strict date validations and conflict prevention. Implements testing with Vitest and uses the date-fns library for date manipulation.",
+    appointmentSchedulerDesc: "A robust TypeScript application for appointment scheduling with strict date validations and conflict prevention.",
     taskManagerBackend: "Task Manager Backend",
-    taskManagerBackendDesc: "Complete backend for task management developed in Node.js with TypeScript. Uses Express as HTTP framework and Prisma ORM for efficient database access.",
+    taskManagerBackendDesc: "Complete backend for task management in Node.js with TypeScript, Express and Prisma ORM with PostgreSQL.",
     microservicesArchitecture: "Microservices Architecture",
-    microservicesArchitectureDesc: "Complete microservices architecture in Node.js + TypeScript, with three independent services: products, customers, and orders API. Demonstrates modern distributed development patterns.",
+    microservicesArchitectureDesc: "Complete microservices architecture in Node.js + TypeScript with three independent services demonstrating modern distributed development patterns.",
     usersApiTypeScript: "Users API TypeScript",
-    usersApiTypeScriptDesc: "Complete REST API for user management with Node.js, Express, and TypeScript. Uses MongoDB as database and implements full CRUD with validations and middlewares.",
+    usersApiTypeScriptDesc: "Complete REST API for user management with Node.js, Express, TypeScript, MongoDB and JWT authentication.",
+
+    // Contact
+    getInTouch: "Get in Touch",
+    contactMe: "Let's Talk",
+    contactSubtitle: "I'm available for new projects and opportunities. Let's build something amazing together!",
+
+    // Footer
+    madeWith: "Made with",
+    by: "by",
   },
 };
