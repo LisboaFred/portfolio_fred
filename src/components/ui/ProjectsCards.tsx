@@ -93,7 +93,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   }
 
   return (
-    <div className="glass rounded-2xl overflow-hidden card-hover-glow group relative flex flex-col">
+    <div className="glass rounded-2xl overflow-hidden card-hover-glow group relative flex flex-col h-full">
       {/* Subtle gradient border top */}
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-purple-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 

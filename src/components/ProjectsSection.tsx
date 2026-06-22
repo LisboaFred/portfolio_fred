@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, FolderGit2, DollarSign, Calendar, Database, Users, Layers, Shield } from 'lucide-react';
+import { ExternalLink, Github, FolderGit2, DollarSign, Calendar, Database, Users, Layers, Shield, Smartphone } from 'lucide-react';
 import ProjectCard from './ui/ProjectsCards';
 import { useLanguage } from "../context/LanguageContext";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
@@ -9,15 +9,22 @@ const ProjectsSection: React.FC = () => {
   const { ref: sectionRef, isVisible } = useScrollAnimation(0.1);
 
   const featuredProject = {
-    title: t('vaultTitle'),
-    description: t('vaultDesc'),
-    tech: ["React", "TypeScript", "Node.js", "Express", "Firebase", "Google Cloud Run", "Tailwind CSS", "Recharts"],
-    linkProject: "https://vault-1028028949462.southamerica-east1.run.app/login",
-    icon: Shield,
+    title: t('amorimAppTitle'),
+    description: t('amorimAppDesc'),
+    tech: ["React Native", "Expo", "Node.js", "Vercel", "Memberstack", "Resend", "JWT"],
+    linkProject: "https://play.google.com/store/apps/details?id=com.dxdeveloper.amorimgloballegalapp&hl=pt_BR",
+    icon: Smartphone,
     featured: true,
   };
 
   const projects = [
+    {
+      title: t('vaultTitle'),
+      description: t('vaultDesc'),
+      tech: ["React", "TypeScript", "Node.js", "Express", "Firebase", "Google Cloud Run", "Tailwind CSS", "Recharts"],
+      linkProject: "https://vault-1028028949462.southamerica-east1.run.app/login",
+      icon: Shield,
+    },
     {
       title: t('dashfinancelisboa'),
       description: t('dashfinancelisboaDesc'),
@@ -95,7 +102,7 @@ const ProjectsSection: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+              className={`h-full transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               style={{ transitionDelay: `${0.3 + index * 0.1}s` }}
             >
               <ProjectCard

@@ -52,6 +52,8 @@ export const translations = {
     liveDemo: "Ver ao Vivo",
 
     // Project Titles and Descriptions
+    amorimAppTitle: "Amorim Global App",
+    amorimAppDesc: "Aplicativo corporativo fullstack em produção para a Amorim Global. O app mobile foi desenvolvido com React Native e Expo, consumindo uma API Node.js serverless hospedada na Vercel, com integração ao Memberstack para autenticação e Resend para envio de e-mails.",
     vaultTitle: "Vault - Gestão Financeira",
     vaultDesc: "Aplicação fullstack completa de gestão financeira pessoal com dashboard interativo, gráficos, controle de categorias, regras automáticas e relatórios. Backend em Node.js + Express, frontend em React + TypeScript, deploy no Google Cloud Run.",
     dashfinancelisboa: "Finance Control - Lisboa",
@@ -125,6 +127,8 @@ export const translations = {
     liveDemo: "Live Demo",
 
     // Project Titles and Descriptions
+    amorimAppTitle: "Amorim Global App",
+    amorimAppDesc: "Fullstack corporate app in production for Amorim Global. The mobile app was developed with React Native and Expo, consuming a serverless Node.js API hosted on Vercel, integrated with Memberstack for authentication and Resend for emails.",
     vaultTitle: "Vault - Financial Management",
     vaultDesc: "Complete fullstack personal finance management app with interactive dashboard, charts, category management, automatic rules and reports. Node.js + Express backend, React + TypeScript frontend, deployed on Google Cloud Run.",
     dashfinancelisboa: "Finance Control - Lisboa",
