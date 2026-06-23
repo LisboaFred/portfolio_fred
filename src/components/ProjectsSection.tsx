@@ -1,5 +1,16 @@
 import React from 'react';
-import { ExternalLink, Github, FolderGit2, DollarSign, Calendar, Database, Users, Layers, Shield, Smartphone } from 'lucide-react';
+import {
+  ExternalLink,
+  Github,
+  FolderGit2,
+  DollarSign,
+  Calendar,
+  Users,
+  Layers,
+  Smartphone,
+  MailCheck,
+  BriefcaseBusiness
+} from 'lucide-react';
 import ProjectCard from './ui/ProjectsCards';
 import { useLanguage } from "../context/LanguageContext";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
@@ -19,54 +30,63 @@ const ProjectsSection: React.FC = () => {
 
   const projects = [
     {
-      title: t('vaultTitle'),
-      description: t('vaultDesc'),
-      tech: ["React", "TypeScript", "Node.js", "Express", "Firebase", "Google Cloud Run", "Tailwind CSS", "Recharts"],
-      linkProject: "https://vault-1028028949462.southamerica-east1.run.app/login",
-      icon: Shield,
+      title: t('aiEmailTriageTitle'),
+      description: t('aiEmailTriageDesc'),
+      tech: ["TypeScript", "Node.js", "Gemini API", "IMAP", "MailParser", "WhatsApp API"],
+      githubUrl: "https://github.com/LisboaFred/email-to-whatsapp-classifier",
+      icon: MailCheck,
     },
     {
       title: t('dashfinancelisboa'),
       description: t('dashfinancelisboaDesc'),
-      tech: ["TypeScript", "React", "Node.js", "Express", "JWT", "Tailwind CSS"],
+      tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "JWT", "Recharts"],
       githubUrl: "https://github.com/LisboaFred/finance-lisboaFamily",
       linkProject: "https://finance-lisboa-family.vercel.app/login",
       icon: DollarSign,
     },
     {
-      title: t('appointmentScheduler'),
-      description: t('appointmentSchedulerDesc'),
-      tech: ["TypeScript", "Vitest", "date-fns", "Node.js"],
-      githubUrl: "https://github.com/LisboaFred/appointment_scheduler",
-      icon: Calendar,
-    },
-    {
-      title: t('taskManagerBackend'),
-      description: t('taskManagerBackendDesc'),
-      tech: ["Node.js", "TypeScript", "Express", "Prisma", "PostgreSQL"],
-      githubUrl: "https://github.com/LisboaFred/criacaoTarefasBackEnd",
-      icon: Database,
-    },
-    {
       title: t('microservicesArchitecture'),
       description: t('microservicesArchitectureDesc'),
-      tech: ["Node.js", "TypeScript", "Microservices", "Docker", "API REST"],
+      tech: ["Node.js", "TypeScript", "Kafka", "Prisma", "PostgreSQL", "Microservices"],
       githubUrl: "https://github.com/LisboaFred/microservices",
       icon: Layers,
     },
     {
+      title: t('developerPortfolioTitle'),
+      description: t('developerPortfolioDesc'),
+      tech: ["React", "TypeScript", "Tailwind CSS", "Context API", "Responsive UI"],
+      githubUrl: "https://github.com/LisboaFred/portfolio_fred",
+      linkProject: "https://fredlisboa.com",
+      icon: BriefcaseBusiness,
+    },
+    {
       title: t('usersApiTypeScript'),
       description: t('usersApiTypeScriptDesc'),
-      tech: ["Node.js", "TypeScript", "Express", "MongoDB", "JWT"],
-      githubUrl: "https://github.com/LisboaFred/users-typescript-api",
+      tech: ["Node.js", "TypeScript", "Express", "MongoDB", "JWT", "API REST"],
+      githubUrl: "https://github.com/LisboaFred/users_typescript_api",
       icon: Users,
+    },
+    {
+      title: t('appointmentScheduler'),
+      description: t('appointmentSchedulerDesc'),
+      tech: ["TypeScript", "Vitest", "date-fns", "Node.js", "Business Rules"],
+      githubUrl: "https://github.com/LisboaFred/appointment_scheduler",
+      icon: Calendar,
     }
   ];
 
   return (
-    <section id="projects" className="relative py-24 overflow-hidden" style={{ background: 'var(--section-bg-1)', transition: 'background 0.4s ease' }}>
+    <section
+      id="projects"
+      className="relative py-24 overflow-hidden"
+      style={{
+        background: 'var(--section-bg-1)',
+        transition: 'background 0.4s ease'
+      }}
+    >
       {/* Top divider */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent" />
+
       <div
         className="absolute inset-0 opacity-20"
         style={{
@@ -76,17 +96,39 @@ const ProjectsSection: React.FC = () => {
 
       <div ref={sectionRef} className="relative max-w-6xl mx-auto px-6">
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <span className="inline-flex items-center gap-2 px-4 py-1.5 text-sm font-medium glass rounded-full mb-4" style={{ color: 'var(--badge-text)' }}>
+        <div
+          className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
+        >
+          <span
+            className="inline-flex items-center gap-2 px-4 py-1.5 text-sm font-medium glass rounded-full mb-4"
+            style={{ color: 'var(--badge-text)' }}
+          >
             <FolderGit2 className="w-3.5 h-3.5" />
             {t('project')}
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>{t('myProjects')}</h2>
-          <p className="max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>{t('projectsDescription')}</p>
+
+          <h2
+            className="text-3xl md:text-4xl font-bold mb-3"
+            style={{ color: 'var(--text-primary)' }}
+          >
+            {t('myProjects')}
+          </h2>
+
+          <p
+            className="max-w-2xl mx-auto"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {t('projectsDescription')}
+          </p>
         </div>
 
         {/* Featured Project */}
-        <div className={`mb-8 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.2s' }}>
+        <div
+          className={`mb-8 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
+          style={{ transitionDelay: '0.2s' }}
+        >
           <ProjectCard
             title={featuredProject.title}
             description={featuredProject.description}
@@ -102,7 +144,8 @@ const ProjectsSection: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`h-full transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+              className={`h-full transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                }`}
               style={{ transitionDelay: `${0.3 + index * 0.1}s` }}
             >
               <ProjectCard
@@ -118,7 +161,11 @@ const ProjectsSection: React.FC = () => {
         </div>
 
         {/* GitHub CTA */}
-        <div className={`text-center mt-12 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.8s' }}>
+        <div
+          className={`text-center mt-12 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
+          style={{ transitionDelay: '0.8s' }}
+        >
           <a
             href="https://github.com/LisboaFred"
             target="_blank"

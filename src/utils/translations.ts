@@ -13,7 +13,7 @@ export const translations = {
     role: "Desenvolvedor Fullstack",
     greeting: "Olá, eu sou",
     namePessoal: "Fred Lisboa",
-    description: "Desenvolvedor Fullstack com experiência em React, React Native, Node.js e arquitetura de soluções escaláveis. Construo aplicações web e mobile de ponta a ponta — do backend robusto ao frontend elegante.",
+    description: "Desenvolvedor Fullstack com experiência em aplicações web e mobile, APIs, integrações, automações e IA aplicada. Trabalho com React, React Native, Node.js, TypeScript e arquitetura de soluções escaláveis — do backend robusto ao frontend elegante.",
     viewExperience: "Ver Experiência",
     contact: "Fale Comigo",
     seeSkills: "Ver Habilidades",
@@ -30,7 +30,7 @@ export const translations = {
     dataAnalyst: "Analista de Dados",
     dataAnalystDescription: "Utilizando ferramentas avançadas de análise e visualização para transformar dados complexos em insights acionáveis. Especialista em SQL, MySQL e Power BI para tomada de decisões baseada em dados.",
     softwareDev: "Desenvolvedor Fullstack",
-    softwareDevDescription: "Desenvolvo soluções completas web e mobile com React, React Native e Node.js. Crio APIs bem estruturadas, interfaces modernas e apps mobile nativos. Experiência com bancos de dados relacionais (PostgreSQL) e não relacionais (MongoDB, Firebase), além de deploy em cloud (GCP, AWS). Aplico testes automatizados com Jest e Vitest para garantir qualidade.",
+    softwareDevDescription: "Desenvolvo soluções completas web e mobile com React, React Native e Node.js. Crio APIs bem estruturadas, automações, integrações entre sistemas e soluções com IA aplicada. Tenho experiência com bancos relacionais e não relacionais, deploy em cloud, autenticação, dashboards, consumo de APIs externas e testes automatizados com Jest e Vitest.",
 
     // Skills
     skillsExpertise: "Habilidades & Especialidades",
@@ -43,7 +43,7 @@ export const translations = {
 
     // Projects Section
     myProjects: "Meus Projetos",
-    projectsDescription: "Uma coleção dos meus projetos mais recentes, demonstrando habilidades fullstack em desenvolvimento web, mobile e arquitetura de software.",
+    projectsDescription: "Projetos práticos que demonstram minha experiência com aplicações web e mobile, APIs, automações, integrações, IA aplicada e arquitetura de software.",
     featuredProject: "Projeto Destaque",
     viewAllProjects: "Ver todos os projetos no GitHub",
     viewOnGitHub: "Ver no GitHub",
@@ -53,19 +53,32 @@ export const translations = {
 
     // Project Titles and Descriptions
     amorimAppTitle: "Amorim Global App",
-    amorimAppDesc: "Aplicativo corporativo fullstack em produção para a Amorim Global. O app mobile foi desenvolvido com React Native e Expo, consumindo uma API Node.js serverless hospedada na Vercel, com integração ao Memberstack para autenticação e Resend para envio de e-mails.",
-    vaultTitle: "Vault - Gestão Financeira",
-    vaultDesc: "Aplicação fullstack completa de gestão financeira pessoal com dashboard interativo, gráficos, controle de categorias, regras automáticas e relatórios. Backend em Node.js + Express, frontend em React + TypeScript, deploy no Google Cloud Run.",
-    dashfinancelisboa: "Finance Control - Lisboa",
-    dashfinancelisboaDesc: "Aplicação full-stack com login e dashboard para controle de finanças pessoais, com backend em TypeScript (Node.js, Express) e frontend em React + TypeScript.",
-    appointmentScheduler: "Agendador de Compromissos",
-    appointmentSchedulerDesc: "Aplicação robusta em TypeScript para agendamento de compromissos com validações rigorosas de data e prevenção de conflitos.",
-    taskManagerBackend: "Backend Gerenciador de Tarefas",
-    taskManagerBackendDesc: "Backend completo para gerenciamento de tarefas em Node.js com TypeScript, Express e Prisma ORM com PostgreSQL.",
+    amorimAppDesc: "Aplicativo corporativo fullstack em produção para a Amorim Global, desenvolvido com React Native e Expo. O app consome uma API Node.js serverless hospedada na Vercel e possui integração com autenticação, área do cliente e serviços externos.",
+
+    aiEmailTriageTitle: "Triagem de E-mails com IA + WhatsApp",
+    aiEmailTriageDesc: "Automação que monitora e-mails via IMAP, classifica mensagens com Gemini/LLM por prioridade e envia resumos executivos pelo WhatsApp.",
+
+    dashfinancelisboa: "Finance Lisboa Family",
+    dashfinancelisboaDesc: "Aplicação full-stack para controle de finanças pessoais, com autenticação, transações, categorias, dashboard, gráficos e análise de gastos.",
+
     microservicesArchitecture: "Arquitetura de Microserviços",
-    microservicesArchitectureDesc: "Arquitetura completa de microserviços em Node.js + TypeScript com três serviços independentes demonstrando padrões modernos de desenvolvimento distribuído.",
+    microservicesArchitectureDesc: "Arquitetura de microserviços orientada a eventos com Node.js, TypeScript, Kafka, Prisma e PostgreSQL para clientes, produtos e pedidos.",
+
+    developerPortfolioTitle: "Portfólio Profissional",
+    developerPortfolioDesc: "Portfólio desenvolvido em React, TypeScript e Tailwind CSS, com layout responsivo, suporte multilíngue e apresentação dos principais projetos.",
+
     usersApiTypeScript: "API de Usuários TypeScript",
-    usersApiTypeScriptDesc: "API REST completa para gerenciamento de usuários com Node.js, Express, TypeScript, MongoDB e autenticação JWT.",
+    usersApiTypeScriptDesc: "API REST para gerenciamento de usuários com Node.js, TypeScript, Express, MongoDB, autenticação, validações e estrutura modular.",
+
+    appointmentScheduler: "Agendador de Compromissos",
+    appointmentSchedulerDesc: "Serviço de agendamento em TypeScript com regras de negócio, validação de conflitos de horário, manipulação de datas e testes automatizados.",
+
+    taskManagerBackend: "Backend Gerenciador de Tarefas",
+    taskManagerBackendDesc: "Backend para gerenciamento de tarefas com Node.js, TypeScript, Express, Prisma e PostgreSQL, estruturado como API REST.",
+
+    // Mantido apenas para evitar erro caso algum componente antigo ainda referencie essas chaves
+    vaultTitle: "Vault - Gestão Financeira",
+    vaultDesc: "Aplicação fullstack de gestão financeira pessoal com dashboard, gráficos, categorias e relatórios.",
 
     // Contact
     getInTouch: "Entre em Contato",
@@ -76,6 +89,7 @@ export const translations = {
     madeWith: "Feito com",
     by: "por",
   },
+
   en: {
     // Navbar
     navHome: "Home",
@@ -88,7 +102,7 @@ export const translations = {
     role: "Fullstack Developer",
     greeting: "Hello, I'm",
     namePessoal: "Fred Lisboa",
-    description: "Fullstack Developer experienced in React, React Native, Node.js and scalable solution architecture. I build end-to-end web and mobile applications — from robust backends to elegant frontends.",
+    description: "Fullstack Developer experienced in web and mobile applications, APIs, integrations, automations and applied AI. I work with React, React Native, Node.js, TypeScript and scalable solution architecture — from robust backends to elegant frontends.",
     viewExperience: "View Experience",
     contact: "Contact Me",
     seeSkills: "See Skills",
@@ -100,12 +114,12 @@ export const translations = {
     professionalExperience: "Professional Experience",
     years: "Years",
     year: "Year",
-    fullstackYears: "2 Years",
+    fullstackYears: "4 Years",
     analystYears: "1 Year",
     dataAnalyst: "Data Analyst",
     dataAnalystDescription: "Leveraging advanced analytics and visualization tools to transform complex data into actionable insights. Expertise in SQL, MySQL, and Power BI for data-driven decision making.",
     softwareDev: "Fullstack Developer",
-    softwareDevDescription: "I build complete web and mobile solutions with React, React Native and Node.js. I create well-structured REST APIs, modern interfaces and native mobile apps. Experience with relational (PostgreSQL) and non-relational (MongoDB, Firebase) databases, plus cloud deployment (GCP, AWS). I apply automated testing with Jest and Vitest to ensure quality.",
+    softwareDevDescription: "I build complete web and mobile solutions with React, React Native and Node.js. I create well-structured APIs, automations, system integrations and applied AI solutions. I have experience with relational and non-relational databases, cloud deployment, authentication, dashboards, external APIs and automated testing with Jest and Vitest.",
 
     // Skills
     skillsExpertise: "Skills & Expertise",
@@ -118,7 +132,7 @@ export const translations = {
 
     // Projects Section
     myProjects: "My Projects",
-    projectsDescription: "A collection of my most recent projects, showcasing fullstack skills in web development, mobile apps, and software architecture.",
+    projectsDescription: "Practical projects showcasing my experience with web and mobile apps, APIs, automations, integrations, applied AI and software architecture.",
     featuredProject: "Featured Project",
     viewAllProjects: "View all projects on GitHub",
     viewOnGitHub: "View on GitHub",
@@ -128,19 +142,32 @@ export const translations = {
 
     // Project Titles and Descriptions
     amorimAppTitle: "Amorim Global App",
-    amorimAppDesc: "Fullstack corporate app in production for Amorim Global. The mobile app was developed with React Native and Expo, consuming a serverless Node.js API hosted on Vercel, integrated with Memberstack for authentication and Resend for emails.",
-    vaultTitle: "Vault - Financial Management",
-    vaultDesc: "Complete fullstack personal finance management app with interactive dashboard, charts, category management, automatic rules and reports. Node.js + Express backend, React + TypeScript frontend, deployed on Google Cloud Run.",
-    dashfinancelisboa: "Finance Control - Lisboa",
-    dashfinancelisboaDesc: "A full-stack application with login and dashboard for personal finance control, with a backend in TypeScript (Node.js, Express) and a frontend in React + TypeScript.",
-    appointmentScheduler: "Appointment Scheduler",
-    appointmentSchedulerDesc: "A robust TypeScript application for appointment scheduling with strict date validations and conflict prevention.",
-    taskManagerBackend: "Task Manager Backend",
-    taskManagerBackendDesc: "Complete backend for task management in Node.js with TypeScript, Express and Prisma ORM with PostgreSQL.",
+    amorimAppDesc: "Fullstack corporate app in production for Amorim Global, built with React Native and Expo. The app consumes a serverless Node.js API hosted on Vercel and integrates authentication, client area features and external services.",
+
+    aiEmailTriageTitle: "AI Email Triage + WhatsApp Automation",
+    aiEmailTriageDesc: "Intelligent email triage system that monitors an inbox via IMAP, classifies messages with Gemini/LLM by priority and sends executive summaries through WhatsApp.",
+
+    dashfinancelisboa: "Finance Lisboa Family",
+    dashfinancelisboaDesc: "Full-stack personal finance application with authentication, transactions, categories, dashboard, charts and spending analytics.",
+
     microservicesArchitecture: "Microservices Architecture",
-    microservicesArchitectureDesc: "Complete microservices architecture in Node.js + TypeScript with three independent services demonstrating modern distributed development patterns.",
-    usersApiTypeScript: "Users API TypeScript",
-    usersApiTypeScriptDesc: "Complete REST API for user management with Node.js, Express, TypeScript, MongoDB and JWT authentication.",
+    microservicesArchitectureDesc: "Event-driven microservices architecture with Node.js, TypeScript, Kafka, Prisma and PostgreSQL for customers, products and orders.",
+
+    developerPortfolioTitle: "Developer Portfolio",
+    developerPortfolioDesc: "Professional portfolio built with React, TypeScript and Tailwind CSS, featuring responsive layout, multilingual support and project presentation.",
+
+    usersApiTypeScript: "Users TypeScript API",
+    usersApiTypeScriptDesc: "REST API for user management with Node.js, TypeScript, Express, MongoDB, authentication, validations and modular structure.",
+
+    appointmentScheduler: "Appointment Scheduler",
+    appointmentSchedulerDesc: "TypeScript scheduling service with business rules, time conflict validation, date handling and automated tests.",
+
+    taskManagerBackend: "Task Manager Backend",
+    taskManagerBackendDesc: "Task management backend built with Node.js, TypeScript, Express, Prisma and PostgreSQL, structured as a REST API.",
+
+    // Kept only to avoid errors if an old component still references these keys
+    vaultTitle: "Vault - Financial Management",
+    vaultDesc: "Fullstack personal finance management app with dashboard, charts, categories and reports.",
 
     // Contact
     getInTouch: "Get in Touch",
@@ -151,4 +178,4 @@ export const translations = {
     madeWith: "Made with",
     by: "by",
   },
-};
+} as const;
