@@ -25,7 +25,7 @@ export const translations = {
     professionalExperience: "Experiência Profissional",
     years: "Anos",
     year: "Ano",
-    fullstackYears: "3 Anos",
+    fullstackYears: "4 Anos",
     analystYears: "1 Ano",
     dataAnalyst: "Analista de Dados",
     dataAnalystDescription: "Utilizando ferramentas avançadas de análise e visualização para transformar dados complexos em insights acionáveis. Especialista em SQL, MySQL e Power BI para tomada de decisões baseada em dados.",
